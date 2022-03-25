@@ -38,7 +38,7 @@ const Home: NextPage = () => {
             </ButtonLink>
 
             <UnstyledLink
-              href="https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fts-nextjs-tailwind-starter"
+              href="https://vercel.com/itishprasad30/typescript-nextjs-tailwindcss-stater/B4ekPMh1i39iAjYGrKk6hn8stp1S"
               className="mt-4"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
