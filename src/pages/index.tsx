@@ -7,18 +7,20 @@ import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import UnderlineLink from '@/components/links/UnderlineLink';
+import NextImage from '@/components/NextImage';
 
 const Home: NextPage = () => {
   return (
     <Layout>
-      {/* <Seo templateTitle='Home' /> */}
       <Seo templateTitle="Home" />
       <main>
         <section className="bg-gray-100">
           <div className="layout flex min-h-screen flex-col items-center justify-center text-center">
-            <img
+            <NextImage
               src="https://camo.githubusercontent.com/92ec9eb7eeab7db4f5919e3205918918c42e6772562afb4112a2909c1aaaa875/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313630373535343338352f7265706f7369746f726965732f6e6578742d6a732f6e6578742d6c6f676f2e706e67"
               alt="next js img"
+              width="180"
+              height="180"
             />
             <h1 className=" mt-4">
               Next.js + Tailwind CSS + TypeScript Starter
@@ -28,7 +30,7 @@ const Home: NextPage = () => {
               Import, Seo, Link component, pre-configured with Husky{' '}
             </p>
             <p className="mt-2 text-sm text-gray-700">
-              <ArrowLink href="https://github.com/itishprasad30/ts-nextjs-tailwind-starter">
+              <ArrowLink href="https://github.com/itishprasad30/typescript-nextjs-tailwindcss-stater">
                 See the repository
               </ArrowLink>
             </p>
