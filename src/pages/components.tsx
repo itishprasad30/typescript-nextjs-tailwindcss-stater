@@ -83,7 +83,7 @@ export default function ComponentsPage() {
                       </option>
                     ))}
                   </select>
-                  <ButtonLink href="https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/blob/main/src/styles/colors.css">
+                  <ButtonLink href="https://github.com/itishprasad30/typescript-nextjs-tailwindcss-stater/blob/main/src/styles/colors.css">
                     Check list of colors
                   </ButtonLink>
                 </div>
