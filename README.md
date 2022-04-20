@@ -26,7 +26,7 @@ This repository is 🔋 battery packed with:
 - 💖 Prettier — Format your code consistently
 - 🤖 Conventional Commit Lint — Make sure you & your teammates follow conventional commit
 - 👷 Github Actions — Lint your code on PR
-- 🚘 Automatic Branch and Issue Autolink — Branch will be automatically created on issue **assign**, and auto linked on PR
+
 - 🔥 Snippets — A collection of useful snippets
 
 - 🗺 Site Map — Automatically generate sitemap.xml
@@ -34,23 +34,16 @@ This repository is 🔋 battery packed with:
 
 ## Getting Started
 
-### 1. Clone this template using one of the three ways:
+### 1. Clone this template using one of the two ways:
 
-1. Use this repository as template
 
-   **Disclosure:** by using this repository as a template, there will be an attribution on your repository.
-
-   I'll appreciate if you do, so this template can be known by others too 😄
-
-   ![Use as template](https://user-images.githubusercontent.com/55318172/129183039-1a61e68d-dd90-4548-9489-7b3ccbb35810.png)
-
-2. Using `create-next-app`
+1. Using `create-next-app`
 
    ```bash
    npx create-next-app -e https://github.com/itishprasad30/typescript-nextjs-tailwindcss-stater  project-name
    ```
 
-3. Deploy to Vercel
+2. Deploy to Vercel
 
    [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/itishprasad30/typescript-nextjs-tailwindcss-stater/B4ekPMh1i39iAjYGrKk6hn8stp1S)
 
