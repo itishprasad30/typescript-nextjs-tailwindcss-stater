@@ -21,14 +21,14 @@ export default function NextImage({
   return (
     <div className={clsxm(className)}>
       <Image
-        className='transition-all duration-200'
+        className="transition-all duration-200"
         src={src}
         width={width}
         height={height}
         layout={layout}
         alt={alt}
         loader={customLoader}
-        placeholder='blur'
+        placeholder="blur"
         blurDataURL={`data:image/svg+xml;base64,${toBase64(
           shimmer(width ? +width : 700, height ? +height : 475)
         )}`}
