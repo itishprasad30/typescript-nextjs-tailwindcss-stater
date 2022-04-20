@@ -8,6 +8,7 @@ import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import UnderlineLink from '@/components/links/UnderlineLink';
 import NextImage from '@/components/NextImage';
+import clsx from 'clsx';
 
 const Home: NextPage = () => {
   return (
@@ -35,9 +36,23 @@ const Home: NextPage = () => {
               </ArrowLink>
             </p>
 
-            <ButtonLink className="mt-6" href="/components" variant="light">
-              See all components
-            </ButtonLink>
+            <div className="group relative">
+              <div
+                className={clsx(
+                  'absolute mt-6 -inset-0.5 animate-tilt rounded blur',
+                  'bg-gradient-to-r from-indigo-300 to-green-400',
+                  'dark:from-yellow-600 dark:via-red-500',
+                  'opacity-75 transition duration-1000 group-hover:opacity-100 group-hover:duration-200'
+                )}
+              />
+              <ButtonLink
+                className="mt-6 relative"
+                href="/components"
+                variant="light"
+              >
+                See all components
+              </ButtonLink>
+            </div>
 
             <UnstyledLink
               href="https://vercel.com/itishprasad30/typescript-nextjs-tailwindcss-stater/B4ekPMh1i39iAjYGrKk6hn8stp1S"
